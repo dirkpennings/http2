@@ -18,7 +18,8 @@ This is a local HTTP/2 test website which uses [Google Chrome's simplehttp2serve
 * Copy the binary from the download folder to the `/usr/local/bin` folder: `cp simplehttp2server_darwin_amd64 /usr/local/bin/simplehttp2server`
 * Execute the command `chmod +x /usr/local/bin/simplehttp2server`
 * Restart Terminal or open a new tab
-* Clone this repository in the desired folder (e.g. `$HOME/Sites/http2`) `git clone https://github.com/dirkpennings/http2`
+* Clone this repository in the desired folder (e.g. `$HOME/Sites`) `git clone https://github.com/dirkpennings/http2`
+* Navigate to the newly created folder `cd http2`
 * Start your local server with `simplehttp2server` and navigate to [https://localhost:5000](https://localhost:5000)
 
 ### Useful links
