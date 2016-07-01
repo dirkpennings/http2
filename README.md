@@ -8,6 +8,7 @@ This is a local HTTP/2 test website which uses [Google Chrome's simplehttp2serve
 
 * Make sure you don't have checked "Disable cache" in DEV Tools
 * As of now, the `h2` protocol only works over a HTTPS connection
+* To see the response protocol in DEV Tools, right click the columns in the Network tab and enable `Protocol`
 * [`Link:` header tags is NOT how you do push](https://twitter.com/dassurma/status/748616497115836416)
 
 ## Installation (OS X)
