@@ -1,0 +1,15 @@
+{
+	"/": {
+		"/css/style.css": {
+			"type": "style",
+			"weight": 1
+		}
+	},
+
+	"/css/style.css": {
+		"/css/bootstrap.min.css": {
+			"type": "style",
+			"weight": 2
+		}
+	}
+}
