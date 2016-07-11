@@ -20,7 +20,16 @@ This is a local HTTP/2 test website which uses [Google Chrome's simplehttp2serve
 * Restart Terminal or open a new tab
 * Clone this repository in the desired folder (e.g. `$HOME/Sites`) `git clone https://github.com/dirkpennings/http2`
 * Navigate to the newly created folder `cd http2`
-* Start your local server with `simplehttp2server` and navigate to [https://localhost:5000](https://localhost:5000)
+* Start your local server with `simplehttp2server` and navigate to [https://localhost:5000](https://localhost:5000) with your browser
+
+## Installation (Windows)
+
+* Download the corresponding binary from [their release page](https://github.com/GoogleChrome/simplehttp2server/releases)
+* Rename the executable `simplehttp2server_windows_amd64.exe` to `simplehttp2server.exe`
+* Move the executable to `C:\Windows\System32` (because this folder already exists in the PATH variable)
+* Open the command prompt and clone this repository in the desired folder (e.g. `C:\temp`) `git clone https://github.com/dirkpennings/http2`
+* Navigate to the newly created folder `cd http2`
+* Start your local server with `simplehttp2server` (accept any Windows Security alerts) and navigate to [https://localhost:5000](https://localhost:5000) with your browser
 
 ### Useful links
 
