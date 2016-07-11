@@ -10,6 +10,7 @@ This is a local HTTP/2 test website which uses [Google Chrome's simplehttp2serve
 * As of now, the `h2` protocol only works over a HTTPS connection
 * To see the response protocol in DEV Tools, right click the columns in the Network tab and enable `Protocol`
 * [`Link:` header tags is NOT how you do push](https://twitter.com/dassurma/status/748616497115836416)
+* [Chrome Canary](https://www.google.nl/chrome/browser/canary.html) shows a "Push" initiator when receiving pushed assets ![Chrome Canary push initiator](https://cdn-images-1.medium.com/max/800/0*a3NOiXytpFA8UrwW.)
 
 ## Installation (OS X)
 
@@ -34,6 +35,7 @@ This is a local HTTP/2 test website which uses [Google Chrome's simplehttp2serve
 ### Useful links
 
 * [HTTP/2 101 (Chrome Dev Summit 2015)](https://www.youtube.com/watch?v=r5oT_2ndjms&t=21m59s)
+* [Issue 5: HTTP/2 Push](https://medium.com/totally-tooling-tears/issue-5-http-2-push-9c6eba8d6d7c#.fev9r5zo3)
 
 ### Credits
 
